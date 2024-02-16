@@ -1,0 +1,22 @@
+// Multiplication
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, Product;
+
+    // Ask the user to input two numbers
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    // Perform Multiplication
+    sum = num1 * num2;
+
+    // Print the result
+    printf("The sum of %d and %d is %d.\n", num1, num2, Product);
+
+    return 0;
+}
